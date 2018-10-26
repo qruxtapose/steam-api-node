@@ -6,6 +6,7 @@ module.exports = (function(undefined){
     this.name               = app.name;
     this.controllerSupport  = app.controller_support ? app.controller_support : 'None';
     this.description        = app.detailed_description;
+    this.short_description  = app.short_description;
     this.about              = app.about_the_game;
     this.header             = app.header_image;
     this.website            = !app.website ? app.website : 'None';
